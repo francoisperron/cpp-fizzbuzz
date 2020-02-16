@@ -5,7 +5,7 @@ TEST(FizzbuzzTest, ReturnsFizzForMultipleOfThree) {
     std::string three = fizzbuzzOf(3);
     EXPECT_EQ(three, "Fizz");
 
-    std::string six = fizzbuzzOf(3);
+    std::string six = fizzbuzzOf(6);
     EXPECT_EQ(six, "Fizz");
 }
 
