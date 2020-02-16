@@ -18,11 +18,11 @@ TEST(FizzbuzzTest, ReturnsBuzzForMultipleOfFive) {
 }
 
 TEST(FizzbuzzTest, ReturnsFizzBuzzForMultipleOfThreeAndFive) {
-    std::string five = fizzbuzzOf(15);
-    EXPECT_EQ(five, "FizzBuzz");
+    std::string fifteen = fizzbuzzOf(15);
+    EXPECT_EQ(fifteen, "FizzBuzz");
 
-    std::string ten = fizzbuzzOf(150);
-    EXPECT_EQ(ten, "FizzBuzz");
+    std::string thirty = fizzbuzzOf(30);
+    EXPECT_EQ(thirty, "FizzBuzz");
 }
 
 TEST(FizzbuzzTest, ReturnsTheValueAsAStringOtherwise) {
